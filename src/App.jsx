@@ -3,6 +3,9 @@ import "./App.css";
 import TopPanelContainer from "./cnt_components/top_panel";
 import Headerpanel from "./cnt_components/header_panel";
 import MainPanel from "./cnt_components/main_panel";
+import NewComponent from "./stany/setstate_test";
+import NewClassComponents from "./stany/state_test";
+import ProductList from "./json_component/json_cmp";
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <TopPanelContainer />
       <Headerpanel />
       <MainPanel />
+      <NewComponent />
+      <NewClassComponents />
+      <ProductList />
     </>
   );
 }
