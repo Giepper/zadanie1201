@@ -6,6 +6,7 @@ import MainPanel from "./cnt_components/main_panel";
 import NewComponent from "./stany/setstate_test";
 import NewClassComponents from "./stany/state_test";
 import ProductList from "./json_component/json_cmp";
+import TaskList from "./stany/taks_data_list";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <NewComponent />
       <NewClassComponents />
       <ProductList />
+      <TaskList />
     </>
   );
 }
